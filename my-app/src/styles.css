@@ -1,0 +1,178 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.settings, .features {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.settings h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.size-selector {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.size-button {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.size-button.active {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.size-button:hover {
+    background-color: #ddd;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1em;
+    color: #555;
+} */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 60%;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+header {
+    background: #4a90e2;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .app-name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav .tab,
+header nav .updates,
+header nav .help,
+header nav .close {
+    background: none;
+    border: none;
+    color: #fff;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+header nav .close {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.music-player {
+    display: flex;
+    align-items: center;
+    background: #e0f7fa;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.album-cover img {
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.song-info {
+    margin-left: 20px;
+}
+
+.song-info .song-title {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.song-info .album-info,
+.song-info .artist-name {
+    margin: 5px 0;
+}
+
+.controls {
+    margin-left: auto;
+}
+
+.controls .play-pause {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.time {
+    margin-top: 10px;
+    text-align: right;
+}
